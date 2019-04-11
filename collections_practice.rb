@@ -132,12 +132,13 @@ end
 
 
 def organize_schools(schools)
-  new_array = []
+  location_array = []
   new_hash = {}
 
   schools.each {|school, location|
-    new_hash[location] = [school]
+    location_array << location
   }
-  new_array
 
+  
+  new_hash
 end
