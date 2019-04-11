@@ -136,13 +136,20 @@ def organize_schools(schools)
   school_array = []
   new_hash = {}
 
+
+  #take all possible locations and turn them into an array
   schools.each {|school, location|
-    location_array << location.values
+    location_array << location[:location]
   }
 
+  #remove duplicates to get a list of unique values
   location_array.uniq!
+
+  # for each unique value, assemble an array of the keys within the hash that contain that value
   location_array.each {|location|
-    school_array << school
+    schools.each {|school, locale|
+      school_array << school
+    }
     new_hash[location] = school_array
 
   }
