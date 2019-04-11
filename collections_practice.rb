@@ -153,6 +153,7 @@ def organize_schools(schools)
       end
     }
     new_hash[location] = school_array
+    school_array = []
   }
 
   new_hash
