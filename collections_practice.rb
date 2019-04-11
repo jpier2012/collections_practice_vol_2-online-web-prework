@@ -5,6 +5,7 @@ def begins_with_r(*args)
   args.each {|arg|
     if arg[0].to_s.downcase != "r"
       all_r = false
+      break
     end
   binding.pry
   }
