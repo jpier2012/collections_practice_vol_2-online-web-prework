@@ -120,12 +120,9 @@ end
 def find_cool(cool)
   new_array = []
   cool.each {|element|
-    element.each {|person, stats|
-      binding.pry
-      if stats[:temperature] == "cool"
+    if element[:temperature] == "cool"
         new_array = [element]
-      end
-    }
+    end
   }
   new_array
 end
