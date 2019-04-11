@@ -135,11 +135,8 @@ def organize_schools(schools)
   new_array = []
   new_hash = {}
 
-
-  cool.each {|element|
-    if element[:temperature] == "cool"
-        new_array = [element]
-    end
+  schools.each {|school, location|
+    new_hash[location] = [school]
   }
   new_array
 
