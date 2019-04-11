@@ -3,7 +3,7 @@ require 'pry'
 def begins_with_r(*args)
   all_r = true
   args.each {|arg|
-    if arg.to_s.downcase != "r"
+    if arg[0].to_s.downcase != "r"
       all_r = false
     end
   binding.pry
