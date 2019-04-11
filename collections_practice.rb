@@ -10,3 +10,5 @@ def begins_with_r(*args)
   }
   all_r
 end
+
+begins_with_r
