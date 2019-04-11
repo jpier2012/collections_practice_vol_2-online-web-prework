@@ -9,7 +9,7 @@ def begins_with_r(*args)
     end
   }
   all_r
-  binding.pry
+  #binding.pry
 end
 
 
