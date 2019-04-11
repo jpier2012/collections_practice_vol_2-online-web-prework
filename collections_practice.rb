@@ -140,7 +140,8 @@ def organize_schools(schools)
     location_array << location.values
   }
 
-  location_array.uniq.each {|location|
+  location_array.uniq!
+  location_array.each {|location|
     school_array << school
     new_hash[location] = school_array
 
