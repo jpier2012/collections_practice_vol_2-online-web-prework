@@ -141,7 +141,7 @@ def organize_schools(schools)
 
   location_array.uniq.each {|location|
 
-    
+
   }
 
   new_hash
