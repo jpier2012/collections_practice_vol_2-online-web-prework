@@ -151,7 +151,6 @@ def organize_schools(schools)
       school_array << school
     }
     new_hash[location] = school_array
-
   }
 
   new_hash
