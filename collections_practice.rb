@@ -10,5 +10,3 @@ def begins_with_r(*args)
   }
   all_r
 end
-
-puts begins_with_r("rarg")
