@@ -2,7 +2,7 @@
 def begins_with_r(*args)
   all_r = true
   args.each {|arg|
-    if arg.to_s.first.downcase != "r"
+    if arg.to_s.downcase != "r"
       all_r = false
       break
     end
