@@ -136,7 +136,6 @@ def organize_schools(schools)
   school_array = []
   new_hash = {}
 
-
   #take all possible locations and turn them into an array
   schools.each {|school, location|
     location_array << location[:location]
