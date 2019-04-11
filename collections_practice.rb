@@ -7,5 +7,5 @@ def begins_with_r(*args)
       false
     end
   }
-  
+
 end
