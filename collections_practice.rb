@@ -129,3 +129,18 @@ end
 
 #####
 #####
+
+
+def organize_schools(schools)
+  new_array = []
+  new_hash = {}
+
+  
+  cool.each {|element|
+    if element[:temperature] == "cool"
+        new_array = [element]
+    end
+  }
+  new_array
+  
+end
