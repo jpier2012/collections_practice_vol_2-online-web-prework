@@ -127,4 +127,6 @@ def find_cool(cool)
   new_array
 end
 
-puts find_cool(data_set)
+#####
+#####
+
