@@ -8,5 +8,4 @@ def begins_with_r(*args)
       break
     end
   }
-
 end
