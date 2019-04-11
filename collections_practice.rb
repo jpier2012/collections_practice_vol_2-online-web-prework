@@ -139,6 +139,6 @@ def organize_schools(schools)
     location_array << location
   }
 
-  
+
   new_hash
 end
