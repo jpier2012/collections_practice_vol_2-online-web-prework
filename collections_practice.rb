@@ -148,7 +148,9 @@ def organize_schools(schools)
   # for each unique value, assemble an array of the keys within the hash that contain that value
   location_array.each {|location|
     schools.each {|school, locale|
-      school_array << school
+      if location == locale[:location]
+        school_array << school
+      end
     }
     new_hash[location] = school_array
   }
