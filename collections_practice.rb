@@ -1,5 +1,5 @@
 require 'pry'
-# your code goes here
+
 def begins_with_r(*args)
   all_r = true
   args.each {|arg|
@@ -9,7 +9,6 @@ def begins_with_r(*args)
     end
   }
   all_r
-  #binding.pry
 end
 
 
