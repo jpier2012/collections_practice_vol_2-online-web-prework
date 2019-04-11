@@ -7,7 +7,6 @@ def begins_with_r(*args)
       all_r = false
       break
     end
-  binding.pry
   }
   all_r
 end
