@@ -5,6 +5,7 @@ def begins_with_r(*args)
       true
     else
       false
+      break
     end
   }
 
