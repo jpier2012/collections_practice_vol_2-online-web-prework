@@ -136,9 +136,13 @@ def organize_schools(schools)
   new_hash = {}
 
   schools.each {|school, location|
-    location_array << location
+    location_array << location[:location]
   }
 
+  location_array.uniq.each {|location|
+
+    
+  }
 
   new_hash
 end
