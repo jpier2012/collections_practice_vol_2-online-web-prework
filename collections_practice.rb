@@ -11,3 +11,7 @@ def begins_with_r(*args)
   all_r
   binding.pry
 end
+
+
+
+begins_with_r("rage","wally","rare")
