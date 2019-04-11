@@ -14,4 +14,4 @@ end
 
 
 
-begins_with_r("rage","wally","rare")
+puts begins_with_r("rage","wally","rare")
