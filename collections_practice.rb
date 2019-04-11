@@ -141,7 +141,8 @@ def organize_schools(schools)
   }
 
   location_array.uniq.each {|location|
-
+    school_array << school
+    new_hash[location] = school_array
 
   }
 
